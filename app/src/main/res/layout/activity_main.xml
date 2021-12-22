@@ -76,7 +76,7 @@
                 android:drawableLeft="@drawable/ic_baseline_security_24"
                 android:drawablePadding="10dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="Password (More than 6 character)"
                 android:inputType="textPassword"
                 android:paddingLeft="20dp"
                 android:paddingTop="13dp"
@@ -169,46 +169,57 @@
                 app:layout_constraintStart_toStartOf="@+id/btnLogin"
                 app:layout_constraintTop_toTopOf="@+id/textView4" />
 
-            <ImageView
-                android:id="@+id/btnFb"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:layout_constraintEnd_toStartOf="@+id/btnGoogle"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/btnGoogle"
-                app:srcCompat="@drawable/fb" />
-
-            <ImageView
+            <com.google.android.gms.common.SignInButton
                 android:id="@+id/btnGoogle"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="24dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.404"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView4"
-                app:srcCompat="@drawable/google" />
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="@+id/view2"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-            <ImageView
-                android:id="@+id/btnGithub"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:layout_constraintEnd_toStartOf="@+id/btnTwitter"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/btnGoogle"
-                app:layout_constraintTop_toTopOf="@+id/btnGoogle"
-                app:srcCompat="@drawable/github" />
+            <!--            <ImageView-->
+<!--                android:id="@+id/btnFb"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/btnGoogle"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/btnGoogle"-->
+<!--                app:srcCompat="@drawable/fb" />-->
 
-            <ImageView
-                android:id="@+id/btnTwitter"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.5"
-                app:layout_constraintStart_toEndOf="@+id/btnGithub"
-                app:layout_constraintTop_toTopOf="@+id/btnGoogle"
-                app:srcCompat="@drawable/twitter" />
+<!--            <ImageView-->
+<!--                android:id="@+id/btnGoogle"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="24dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.404"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView4"-->
+<!--                app:srcCompat="@drawable/google" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/btnGithub"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                app:layout_constraintEnd_toStartOf="@+id/btnTwitter"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/btnGoogle"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/btnGoogle"-->
+<!--                app:srcCompat="@drawable/github" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/btnTwitter"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.5"-->
+<!--                app:layout_constraintStart_toEndOf="@+id/btnGithub"-->
+<!--                app:layout_constraintTop_toTopOf="@+id/btnGoogle"-->
+<!--                app:srcCompat="@drawable/twitter" />-->
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
