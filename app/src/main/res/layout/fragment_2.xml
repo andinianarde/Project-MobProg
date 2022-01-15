@@ -7,12 +7,13 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_gravity="center">
+
     <TextView
         android:id="@+id/halo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
-        android:text="Halo Sulawesi"
+        android:text="Halo anda"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/username"

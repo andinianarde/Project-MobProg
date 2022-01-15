@@ -1,4 +1,4 @@
-package com.example.projectmobprog.ui;
+package com.example.projectmobprog.ui.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.projectmobprog.R;
 
-public class Fragment_1 extends Fragment {
+public class Fragment_2 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_1,container,false);
+        View view = inflater.inflate(R.layout.fragment_2,container,false);
         return view;
     }
 }
