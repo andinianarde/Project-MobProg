@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Untuk pindah ke Dashboard
     private void toDashboard(){
-        startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
+        startActivity(new Intent(getApplicationContext(),MainMenuActivity.class));
     }
 
     private void checkLogin() {

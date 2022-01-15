@@ -8,9 +8,23 @@
         <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/drawable/btn_bg_normal.xml" value="0.2203125" />
         <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/drawable/btn_bg_pressl.xml" value="0.2203125" />
         <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/drawable/ic_baseline_security_24.xml" value="0.2203125" />
-        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/activity_dashboard.xml" value="0.33" />
         <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/activity_main_menu.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_1.xml" value="0.4074074074074074" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_2.xml" value="0.4074074074074074" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_dashboard.xml" value="0.4287179487179487" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_home.xml" value="0.4287179487179487" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_notifications.xml" value="0.4287179487179487" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_profile.xml" value="0.44166666666666665" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_second.xml" value="0.4287179487179487" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/fragment_third.xml" value="0.4287179487179487" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/tab_1.xml" value="0.4074074074074074" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/layout/tab_2.xml" value="0.4074074074074074" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/menu/bottom_menu.xml" value="0.28055555555555556" />
+        <entry key="..\:/Kuliah/Semester 5/Mobile Programming/Tugas/ProjectMobProg/app/src/main/res/menu/bottom_nav_menu.xml" value="0.4287179487179487" />
       </map>
     </option>
   </component>

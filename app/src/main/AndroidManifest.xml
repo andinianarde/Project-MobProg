@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.projectmobprog">
+    package="com.example.projectmobprog" >
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -8,7 +9,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProjectMobProg">
+        android:theme="@style/Theme.ProjectMobProg" >
+        <activity
+            android:name=".ui.TestingActivity"
+            android:exported="true"
+            android:label="@string/title_activity_testing" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main_menu" />
         <activity
             android:name=".DashboardActivity"
             android:exported="true" />
@@ -17,7 +26,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
